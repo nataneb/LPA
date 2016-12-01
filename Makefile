@@ -8,4 +8,4 @@
 GRAPPA_IMPLICIT_RULES:=on
 include $(GRAPPA_PREFIX)/share/Grappa/grappa.mk
 
-Adaptive_LPA_bipartite: Adaptive_LPA_bipartite.o graphlab.o 
+LPA_with_L2_norm: LPA_with_L2_norm.o graphlab.o 
